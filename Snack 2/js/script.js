@@ -13,6 +13,8 @@ let myButtonElement = document.querySelector(".btn").addEventListener("click",
         numbers.push(inputValue);
         inputCount++;
 
+        numberElement.value = "";
+
         if (inputCount===10){
             calculateSum();
         }
